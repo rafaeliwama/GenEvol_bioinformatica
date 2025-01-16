@@ -1,8 +1,8 @@
 
 
 
-![image](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/14a34fba-f30b-403f-88ce-1a27e773148f)
 
+![logo_colorido](https://github.com/user-attachments/assets/b18bd76c-3e71-43cd-b8f1-84bd842f44e1)
 
 
 # Dos genes até comunidades: como a Bionformática revolucionou a genética”
