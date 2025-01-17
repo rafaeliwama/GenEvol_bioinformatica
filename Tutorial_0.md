@@ -27,3 +27,6 @@ No ínicio dos anos 1980, a fabricação de computadores do tipo desktop. As apl
 
 Outro evento que impulsionou a bioinformática, foi o sequênciamento de alto desempenho (HTS) que geram milhões de sequências curtas. Ou seja, devido ao volume de dados gerados, o processamento automatizado destas sequências é essencial.
 
+
+## UNIX
+
