@@ -17,4 +17,4 @@ A origem da bioinformática pode ser atribuída a Margaret Dayhoff. Dayhoff, jun
 
 ![image](https://github.com/user-attachments/assets/16ca63f8-d0af-4955-a222-5ab7bb53301e)
 
-Apesar do início da bioinformática ter sido em aplicações para proteínas, durante as décadas de 1970 e 1980, 
+Apesar do início da bioinformática ter sido em aplicações para proteínas, durante as décadas de 1970 e 1980, uma mudança de paradigma ocorreu com a mudança do foco da bioinformática para moléculas de DNA. Esta mudança foi decorrente da elucidação do código genético para os 64 códons e do avanço nas metodologias de sequenciamento de DNA
