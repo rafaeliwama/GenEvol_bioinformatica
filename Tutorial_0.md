@@ -28,5 +28,23 @@ No ínicio dos anos 1980, a fabricação de computadores do tipo desktop. As apl
 Outro evento que impulsionou a bioinformática, foi o sequênciamento de alto desempenho (HTS) que geram milhões de sequências curtas. Ou seja, devido ao volume de dados gerados, o processamento automatizado destas sequências é essencial.
 
 
+## Métodos de sequenciamento
+
+
+
+
 ## UNIX
+
+O UNIX é um sistema operacional multitarefas e multiusários, ou seja, pode realizar mais de uma tarefa ao mesmo tempo de mais de um usário. Desta forma, o UNIX organiza as tarefas requisitadas por diferentes usuários e administra os recursos computacionais, impedindo a interferência entre estas tarefas. Os arquivos em uma plataforma UNIX são essenciais. Praticamente todos os componentes do UNIX estão armazenados em arquivos. Por exemplo, os programas e comandos executados por um sistema UNIX são arquivos contendo uma série de comandos que será executado pelo sistema.
+
+Contudo, estes arquivos estão organizados por um sistema de diretórios (pastas). Estes diretórios, que pode ser entendido como uma árvore com diversas ramificações. Nós utilizamos a conotação de caminhos ou _path_, para indicar esta estrutura ramificada. Por exemplo: /home/riwama/cracas/genoma.fa e /home/riwama/sanguessugas/transcriptoma.fa.
+
+Estes _paths_ indicam a localização dos arquivos genoma.fa e transcriptoma.fa, ilustrados na figura abaixo. Em vermelho, estão destacados a estrutura de diretórios.
+
+![image](https://github.com/user-attachments/assets/46e900d5-8bc6-4a14-a112-b924758a5668)
+
+**Comandos**
+
+O UNIX possui um grande número de comandos que podem ser utilizados para navegação e gerenciamento do sistema, edição de arquivos e etc. Durante o primeiro tutorial deste workshop, você terá contato com alguns destes comandos. No entando, o alto número de comandos torna impossível abordar todos os comandos em apenas um dia de curso, ou até mesmo listar de forma exaustiva estes comandos. Este link (https://www.ufrgs.br/psicoeduc/chasqueweb/edu01027/comandos-linux.pdf) lista alguns dos principais comandos e descreve suas funções. Porém, o Google é sua melhor ferramenta. Se você precisar realizar uma tarefa específica procure no Google. Alguém com certeza já precisou fazer a mesma coisa que você!
+
 
