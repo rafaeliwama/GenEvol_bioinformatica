@@ -1,6 +1,5 @@
 ![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
 
-### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 
 # Parte II - Análise de Expressão Diferencial
 ### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
