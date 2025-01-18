@@ -7,7 +7,7 @@
 
 # Dos genes até comunidades: como a Bionformática revolucionou a genética”
 
-### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
+### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 
 
 Bem vindo ao mini-curso de bioinformática da 26ª Semana Temática da Biologia USP (2023).
@@ -29,15 +29,18 @@ Ao longo destes tutoriais, você ficaram um pouco mais familiarizado com estes a
 
 Este repositório contém quatro tutoriais:
 
-1. Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
-2. Análise de expressão diferencial
-3. Gene Ontology (GO) e GO enrichment
+1. [Introdução teórica](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_0.md)
+2. [Introdução ao terminal, linhas de comando, arquivos fasta e BLAST](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_1_Introducao_terminal.md)
+3. [Análise de expressão diferencial](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_2_analise_expressao_diferencial.md)
+4. [Gene Ontology (GO) e GO enrichment](https://github.com/rafaeliwama/GenEvol_bioinformatica/blob/main/Tutorial_3_Gene_ontology.md)
 
+
+Enquanto a introdução teório é uma leitura individual, que deve ser realizada fora do período do workshop, os itens 2-3 devem ser realizados em aula com a ajuda dos intrutores.
 
 A utilização de linhas de comando para a realização de tarefas de bioinformática é algo que fica mais fácil com a prática. Erros simples, como erros de digitação, são comuns e são bem chatos. A maior parte dos códigos presentes nos tutoriais desse curso devem funcionar sem maiores problemas, mas caso você tenha alguma dificuldade não hesite de nos chamar.
 
 
-Se tiver dúvidas após o curso, mande um e-mail para: eiji.iwama@usp.br
+Se tiver dúvidas após o curso, mande um e-mail para: eiji.iwama@usp.br, celine.lopes@usp.br ou thainacortez@usp.br 
 
 
 Bom trabalho!
