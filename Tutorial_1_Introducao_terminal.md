@@ -1,5 +1,8 @@
-# Parte I - Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
-### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
+![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+
+
+# Parte 1 - Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
+### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 ## Se localizando no terminal
 
 Ao entrar no terminal, você verá algo similar a isto:
