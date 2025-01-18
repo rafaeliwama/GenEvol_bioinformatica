@@ -1,5 +1,7 @@
+![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+
 # Parte III - Enriquecimento de vias metabólicas (Gene Ontology)
-### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
+### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 Na última questão, você obteve gráficos e tabelas contendo informações sobre diferenças de expressão de vários genes. Entretanto, qual o significado biológico disso? Para responder essa questão, convém fazer uma análise de enriquecimento de termos GO (Gene Ontology). 
 
 ### O que é *gene ontology*?
