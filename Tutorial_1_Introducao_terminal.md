@@ -84,12 +84,9 @@ Crie um diretório com o nome pratica1.
 usuario@DESKTOP-00RFJVC:~$ mkdir pratica1
 
 ```
+> [!CAUTION]
+> No Linux, não se recomenda o uso de espaço, acentos e cedilha em títulos de arquivos ou diretórios. Caso realmente precise criar um diretório com espaço no título, use aspas (ex: “nome o diretório”). Ainda assim, dê preferência ao underline (_) ou outro caractere.
 
-![image](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/2cadf6de-40e5-492b-aebf-b303ed877d68)
-
-No Linux, não se recomenda o uso de espaço, acentos e cedilha em títulos de arquivos ou
-diretórios. Caso realmente precise criar um diretório com espaço no título, use aspas (ex: “nome
-do diretório”). Ainda assim, dê preferência ao underline (_) ou outro caractere.
 
 Para entrar nesse diretório novo, use o comando cd (change directory), apenas o indicando
 depois do cd.
@@ -169,11 +166,8 @@ String2&gt;
 String7String8String9
 String*10
 ```
-![image](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/77f2ec44-1c71-4c17-9ee6-a4a1713480cb)
-
-Atenção: Observe que foram identificados somente os termos que iniciavam com letra
-maiúscula (String). Isto ocorre porque o sistema diferencia, em suas buscas e linhas de
-comando, caracteres maiúsculos e minúsculos.
+> [!IMPORTANT]
+> Observe que foram identificados somente os termos que iniciavam com letra maiúscula (String). Isto ocorre porque o sistema diferencia, em suas buscas e linhas de comando, caracteres maiúsculos e minúsculos.
 
 Para substituir strings de um arquivo, utilizaremos o comando sed. O comando utiliza,
 respectivamente, a string que deseja-se procurar e aquela que irá substituir o termo. 
@@ -285,9 +279,8 @@ Para remover arquivos, use o comando rm seguido do nome do arquivo que deseja ex
 ```
 usuario@DESKTOP-00RFJVC:~$ rm new_dir/copia3
 ```
-![image](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/77f2ec44-1c71-4c17-9ee6-a4a1713480cb)
-
-**Lembre-se, o sistema Linux não alerta ou pede confirmação de exclusão de seus arquivos. Portanto, arquivos excluídos não vão para lixeira ou pastas temporárias e, logo, são perdidos definitivamente, sem possibilidade de recuperação. Sempre tenha um backup dos seus arquivos!**
+> [!CAUTION]
+> **Lembre-se, o sistema Linux não alerta ou pede confirmação de exclusão de seus arquivos. Portanto, arquivos excluídos não vão para lixeira ou pastas temporárias e, logo, são perdidos definitivamente, sem possibilidade de recuperação. Sempre tenha um backup dos seus arquivos!**
 
 ## Organizando e filtrando arquivos
 
