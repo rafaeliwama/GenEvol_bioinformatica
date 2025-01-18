@@ -27,6 +27,12 @@ No ínicio dos anos 1980, a fabricação de computadores do tipo desktop. As apl
 
 Outro evento que impulsionou a bioinformática, foi o sequênciamento de alto desempenho (HTS) que geram milhões de sequências curtas. Ou seja, devido ao volume de dados gerados, o processamento automatizado destas sequências é essencial.
 
+> [!TIP]
+> Para saber um pouco mais sobre a história da bioinformática:
+> 
+> Jeff Gauthier, Antony T Vincent, Steve J Charette, Nicolas Derome, A brief history of bioinformatics, Briefings in Bioinformatics, Volume 20, Issue 6, November 2019, Pages 1981–1996, https://doi.org/10.1093/bib/bby063
+
+
 
 ## Métodos de sequenciamento
 
@@ -40,6 +46,8 @@ O UNIX é um sistema operacional multitarefas e multiusários, ou seja, pode rea
 Contudo, estes arquivos estão organizados por um sistema de diretórios (pastas). Estes diretórios, que pode ser entendido como uma árvore com diversas ramificações. Nós utilizamos a conotação de caminhos ou _path_, para indicar esta estrutura ramificada. Por exemplo: /home/riwama/cracas/genoma.fa e /home/riwama/sanguessugas/transcriptoma.fa.
 
 Estes _paths_ indicam a localização dos arquivos genoma.fa e transcriptoma.fa, ilustrados na figura abaixo. Em vermelho, estão destacados a estrutura de diretórios.
+
+
 
 ![image](https://github.com/user-attachments/assets/46e900d5-8bc6-4a14-a112-b924758a5668)
 
