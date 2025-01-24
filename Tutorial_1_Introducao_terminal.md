@@ -66,9 +66,9 @@ drwxrwxr-x 2 deadg deadg 2 Mar 14 15:35 pratica6
 Algo similar ao exemplo acima deve ser exibido.
 
 Essas colunas representam:
-1. Permissões (explicado a seguir)
-2. Links físicos para este arquivo   
-3-4. Nome do grupo e do usuário   
+1. Permissões
+2. Links físicos para este arquivo
+3-4 Nome do grupo e do usuário   
 5. Espaço utilizado pelo arquivo   
 6. Momento em que foi feita a última edição       
 7. Nome do arquivo.
@@ -106,7 +106,7 @@ Caso tenha alguma dúvida de como ou quais argumentos utilizar para determinado
 comando, você pode utilizar o argumento --help. Experimente fazer isso com os comandos
 indicados.
 
-Agora, entre no seu diretório contido na pasta pratica1 para as próximas etapas desta
+Entre no seu diretório contido na pasta pratica1 para as próximas etapas desta
 atividade.
 
 Criando e editando arquivos de texto
@@ -387,13 +387,13 @@ você deve obter um resultado parecido com a figura abaixo:
 
 Observe que a primeira linha printada contém o o caractere ">" e uma descrição. Esta primeira linha é chamada de header e contém informações sobre a sequência que se seguira no documento. É importante destacar que o header deve estar contido em uma única linha. As linhas que se seguem o header contém a sequência, que neste caso é de DNA. Porém, sequências fasta podem conter sequencias de DNA, RNA e proteínas.
 
-Arquivos em formato fasta, podem conter múltiplas sequências. Para observar este tipo de arquivo, utilize o comando "cat" para printar o arquivo "seq2.fasta".
+Arquivos em formato fasta podem conter múltiplas sequências. Para observar este tipo de arquivo, utilize o comando "cat" para printar o arquivo "seq2.fasta".
 
 ```
 cat seq2.fasta
 ```
 
-Perceba, que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
+Perceba que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
 
 Agora, nós vamos tentar identificar estas sequências utilizando a ferramenta BLAST.
 
