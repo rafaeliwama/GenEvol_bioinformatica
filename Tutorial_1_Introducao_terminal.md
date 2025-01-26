@@ -393,6 +393,13 @@ Arquivos em formato fasta podem conter múltiplas sequências. Para observar est
 cat seq2.fasta
 ```
 
+Para contabilizar quantas sequências temos neste arquivo, vamos utilizar do comando 'grep', que identifica linhas com um padrão específico. 
+
+```
+grep -c ">" seq2.fasta
+```
+
+
 Perceba que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
 
 Agora, nós vamos tentar identificar estas sequências utilizando a ferramenta BLAST.
@@ -417,3 +424,30 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
 
 6. Explore as outras abas, como a aba *Alignments* apontada pela seta.
 7. Utilizando os resultados do BLAST, qual o nome das espécies às quais as sequências contidas no arquivo *seq2.fasta* pertencem?
+8. 
+## O que é um arquivo fastq?
+
+Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424.fastq".
+
+```
+head ERR12983424.fastq
+```
+
+Observe que a diferentemente do arquivo fasta, o arquivo em formato fastq não inicia com '>'. Neste caso, os identificadores das sequências são linhas iniciadas por '@'. O arquivo contém, pra cada sequências, quatro linhas que nos fornecem informações de qualidade. São elas:
+1a linha -> ID da sequência (sequence identifier)
+2a linha -> Sequência
+3a linha -> ID do quality score (inicia com +)
+4a linha -> Quality score
+
+Arquivos fastq contém quantidades muito altas de sequência, se tornando inviável de visualizar no terminal. Portanto, contabilize quantas linhas o arquivo contém. 
+
+```
+wc -l ERR12983424.fastq
+```
+
+Entretanto, assumindo que cada sequência é representada por 4 linhas, você pode dividir este valor por 4 para obter o número de leituras ou utilizar o grep:
+
+```
+grep -c '^@ERR' ERR12983424.fastq
+```
+
