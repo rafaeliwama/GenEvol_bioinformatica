@@ -428,7 +428,7 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
    
 ## O que é um arquivo fastq?
 
-Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424.fastq".
+Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424_2.fastq".
 
 ```
 head ERR12983424_2.fastq
