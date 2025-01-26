@@ -434,11 +434,12 @@ head ERR12983424.fastq
 ```
 
 Observe que a diferentemente do arquivo fasta, o arquivo em formato fastq não inicia com '>'. Neste caso, os identificadores das sequências são linhas iniciadas por '@'. O arquivo contém, pra cada sequências, quatro linhas que nos fornecem informações de qualidade. São elas:
+```
 1a linha -> ID da sequência (sequence identifier)
 2a linha -> Sequência
 3a linha -> ID do quality score (inicia com +)
 4a linha -> Quality score
-
+```
 Arquivos fastq contém quantidades muito altas de sequência, se tornando inviável de visualizar no terminal. Portanto, contabilize quantas linhas o arquivo contém. 
 
 ```
