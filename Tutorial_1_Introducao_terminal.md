@@ -452,3 +452,10 @@ Entretanto, assumindo que cada sequência é representada por 4 linhas, você po
 grep -c '^@ERR' ERR12983424.fastq
 ```
 
+Uma forma de avaliarmos a qualidade geral de todas as sequências obtidas é por meio da ferramenta FastQC (https://github.com/s-andrews/FastQC). O software utilizará das linhas com quality score (QS) para avaliar a distribuição da qualidade por par de base. Rode o programa, que já deve estar instalado na sua máquina:
+
+```
+fastqc ERR12983424.fastq
+```
+
+Abra o arquivo ERR12983424_fastqc.html em um navegador de internet e avalie os gráficos. 
