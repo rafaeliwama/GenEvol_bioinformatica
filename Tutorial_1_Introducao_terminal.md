@@ -460,4 +460,4 @@ Uma forma de avaliarmos a qualidade geral de todas as sequências obtidas é por
 fastqc ERR12983424_2.fastq
 ```
 
-Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
+Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_2_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
