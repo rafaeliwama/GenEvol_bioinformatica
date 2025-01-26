@@ -424,13 +424,14 @@ Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utiliza
 
 6. Explore as outras abas, como a aba *Alignments* apontada pela seta.
 7. Utilizando os resultados do BLAST, qual o nome das espécies às quais as sequências contidas no arquivo *seq2.fasta* pertencem?
-8. 
+
+   
 ## O que é um arquivo fastq?
 
 Dentro do diretório do curso, utilize o comando "head" para printar as primeiras 15 linhas do arquivo "ERR12983424.fastq".
 
 ```
-head ERR12983424.fastq
+head ERR12983424_2.fastq
 ```
 
 Observe que a diferentemente do arquivo fasta, o arquivo em formato fastq não inicia com '>'. Neste caso, os identificadores das sequências são linhas iniciadas por '@'. O arquivo contém, pra cada sequências, quatro linhas que nos fornecem informações de qualidade. São elas:
@@ -440,22 +441,23 @@ Observe que a diferentemente do arquivo fasta, o arquivo em formato fastq não i
 3a linha -> ID do quality score (inicia com +)
 4a linha -> Quality score
 ```
+
 Arquivos fastq contém quantidades muito altas de sequência, se tornando inviável de visualizar no terminal. Portanto, contabilize quantas linhas o arquivo contém. 
 
 ```
-wc -l ERR12983424.fastq
+wc -l ERR12983424_2.fastq
 ```
 
 Entretanto, assumindo que cada sequência é representada por 4 linhas, você pode dividir este valor por 4 para obter o número de leituras ou utilizar o grep:
 
 ```
-grep -c '^@ERR' ERR12983424.fastq
+grep -c '^@ERR' ERR12983424_2.fastq
 ```
 
 Uma forma de avaliarmos a qualidade geral de todas as sequências obtidas é por meio da ferramenta FastQC (https://github.com/s-andrews/FastQC). O software utilizará das linhas com quality score (QS) para avaliar a distribuição da qualidade por par de base. Rode o programa, que já deve estar instalado na sua máquina:
 
 ```
-fastqc ERR12983424.fastq
+fastqc ERR12983424_2.fastq
 ```
 
 Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
