@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/f6dc780b-afb0-42e3-9369-7d4b8591820a)
 ![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
 
 
@@ -32,12 +32,66 @@ Outro evento que impulsionou a bioinformática, foi o sequênciamento de alto de
 > 
 > Jeff Gauthier, Antony T Vincent, Steve J Charette, Nicolas Derome, A brief history of bioinformatics, Briefings in Bioinformatics, Volume 20, Issue 6, November 2019, Pages 1981–1996, https://doi.org/10.1093/bib/bby063
 
-
-
 ## Métodos de sequenciamento
 
+Com a descoberta da estrutura dupla hélice do DNA em 1953 por Francis Crick e James Watson baseada nos dados cristalográficos de Rosalind Franklin e Maurice Wilkins, diversas perguntas cruciais sobre biodiversidade, evolução, sistemática, ecologia, dentre outras áreas da Biologia surgiram e puderam ser respondidas. Entretanto, para expandir e responder outras questões que vinham despontando, era importante estabelecer alguma tecnologia que fizesse possível que as sequências de unidades de um polímero pudessem ser determinadas.  Por exemplo, se falarmos sobre o sequenciamento de DNA de eucariotos, o objetivo é identificar e ordenar as quatro bases de nucleotídeos (adenina, guanina, citosina e timina) (Figura 1) no segmento linear do DNA. 
 
+![Imagem 1](https://github.com/user-attachments/assets/0aa0e1ce-5926-4a1e-80f3-64f652d4efe4)
+Figura 1. Esquema simplificado do resultado de um sequenciamento de DNA. As bases de nucleotídeos e os picos são mostrados. 
 
+Baseado neste cenário, inicialmente os cientistas tentaram sequenciar moléculas de RNA, porque eram mais curtas em relação àquelas de DNA e só possuem uma só fita. Em 1965, a técnica de fracionamento 2D desenvolvida por Frederick Sanger que usava uma combinação de eletroforese cromatografia foi usada no primeiro sequenciamento de RNA completo por Holley e colaboradores. Nos anos 1970 essa técnica foi um pouco modificada e aplicada ao DNA. Posteriormente, outras técnicas fora surgindo, as quais serão brevemente descritas e explicadas nos subtópicos abaixo.
+
+## Método de sequenciamento Maxam-Gilbert: início do sequenciamento de primeira geração
+Em 1976, Allan Maxam e Walter Gilbert propuseram uma técnica de sequenciamento de DNA que se baseava na clivagem química da molécula de DNA, ou seja, o DNA era tratado quimicamente para haver a quebra de cadeia em bases específicas. Posteriormente, os fragmentos eram submetidos à eletroforese, de modo que era possível chegar ao comprimento relativo dos fragmentos, à posição dos nucleotídeos e a dedução das sequências (Figura 2).
+
+![Maxam gilbert sequencing](https://github.com/user-attachments/assets/e478511c-c70e-4f2c-a675-c25863023551)
+Figura 2. Esquema do método de sequenciamento desenvolvido por Maxam-Gilbert.
+
+## Método de sequenciamento Sanger
+Em 1977, Frederick Sanger aperfeiçoou o método de Maxam-Gilbert, propondo o método de terminação de cadeia, que veio a se tornar um dos métodos mais difundidos e usados por muito tempo, inclusive até os dias atuais. O método Sanger se baseia no uso de químicos que são análogos aos que compõem os quatro nucleotídeos do DNA. Ele tem como alvo uma região específica do DNA molde e para marcar essa região é usado um primer de oligonucleotídeos. A função desse primer é se ligar à região de interesse do DNA. Nesse sequenciamento, a molécula de DNA passa por um processo de desnaturação através do calor. Assim, esse processo é iniciado com uma única fita de DNA que servirá como um molde para gerar a parte complementar da dupla hélice. Então, para que a sequência seja determinada são usados didesoxirribonucleotídeos (ddNTPs) para a extensão da cadeia de DNA. Esses ddNTPs são marcados por cores diferentes para cada base (isso será essencial para o resultado final) e serão misturados com os desoxirribonucleotídeos trifosfatado (dNTPs) não marcados e o DNA molde em uma reação que será conduzida por uma enzima chamada polimerase. A partir dessa reação, quando os ddNTPs se ligam aleatoriamente, são produzidas fitas com diversos possíveis tamanhos, terminando a cadeia. O passo seguinte é a separação dos produtos por eletroforese. Os fragmentos terminados em cadeia são detectados, justamente, pelos marcadores fluorescentes e a cor dos ddNTPs será essencial (Figura 3).
+
+![SangerSequencingworflow1](https://github.com/user-attachments/assets/65afaf8c-c16a-4ff7-974a-9fe1a084d249)
+Figura 3. Esquema do método de sequenciamento Sanger.
+
+## Pirosequenciamento 
+A técnica de pirosequenciamento foi desenvolvida em 1995 por Mostafa Ronaghi e Pål Nyrén. Ela é uma técnica que usa a extensão de primer para o sequenciamento de DNA, mas não é baseada em gel. Essa abordagem identifica os pirofosfatos inorgânicos (PPi) liberados durante a síntese de DNA. Nas reações dessa técnica, há a liberação de uma molécula PPi depois que um nucleotídeo é adicionado na cadeia em crescimento. Nessa técnica, a enzima luciferase utiliza adenosina trifosfato (ATP) para produzir luz. À medida que há a incorporação de um nucleotídeo, os que não foram incorporados são degradados pela enzima apirase, antes que um outro nucleotídeo seja adicionado (Figura 4).
+
+![pirosequenciamento](https://github.com/user-attachments/assets/be6ba166-f656-492a-a957-660e43ea7252)
+Figura 4. Esquema representando o preparo das amostras e a abordagem de Pirosequenciamento.
+
+O pirosequenciamento é mais barato e mais rápido em comparação ao sequenciamento Sanger. Essa técnica gera um pirograma que é mais fácil para ser analisado (Figura 5). O pirosequenciamento é semiquantitativo, então pode ser usado para identificar e quantificar mutações.   
+
+![An-example-pyrosequencing-pyrogram-using-the-tRNA-Leu-assay](https://github.com/user-attachments/assets/c586d145-8cbf-4d6b-958f-69188918a84b)
+Figura 5. Pirograma gerado pelo pirosequenciamento.
+
+## Sequenciamentos NGS
+Com o passar do tempo, novas perguntas biológicas foram surgindo e demandando técnicas de sequenciamento mais eficientes. Portanto, as novas técnicas de alto rendimento surgiram. O sequenciamento NGS pode ser usado para acessar desde um número pequeno de genes até o genoma completo de organismos. Por exemplo, o sequenciamento do genoma completo (em inglês WGS) irá fornecer as sequências das bases de DNA referente ao genoma alvo inteiro. Já o sequenciamento do transcriptoma completo propiciará informações sobre o RNA codificante e não-codificante. Enquanto o sequenciamento direcionado cobrirá conjuntos de genes pequenos ou regiões-alvo. Atualmente, este tipo de sequenciamento é bastante difundido e usado devido, principalmente, ao custo relativamente baixo e ao tempo rápido de sequenciamento. 
+
+## Sequenciamento Illumina
+Em 1997, a partir de diversas discussões, alguns cientistas começaram a ventilar a ideia de usar matrizes clonais e sequenciamento massivamente paralelo de leituras (reads) curtas através de um tipo de sequenciamento de fase sólida por terminadores reversíveis. Essa técnica foi denominada mais tarde de sequenciamento por síntese (SBS). Em 1998, os pesquisadores Shankar Balasubramanian e David Klenerman captaram fundos para formar uma corporação de pesquisa chamada Solexa. A Illumina adiquiriu a Solexa em 2007 e desde então, genomas de diversos organismos têm sido sequenciados usando essa tecnologia. A Illumina usa a tecnologia de sequenciamento por síntese que, é baseado nos quatro nucleotídeos marcados por fluorescência. Ao longo de cada ciclo de sequenciamento, apenas um dNTP é incorporado na cadeia de ácido nucléico. Posteriormente, o corante fluorescente é usado para identificar cada base, a partir de uma enzima, a clivagem é feita, o que permite a incorporação do outro nucleotídeo (Figura 6). O interessante dessa tecnologia é que como a chamada de base é feita através das medições dos sinais de intensidade ao longo de cada ciclo, é possível reduzir muito as taxas de erros. Além disso, a presença dos quatro dNTPs durante cada ciclo ligados ao terminador reversível, diminui o viés de incorporação. Essa tecnologia possibilita um sequenciamento base por base bastante acurado que pode ser usado para muitas aplicações. 
+
+![Principle-of-the-illumina-sequencing-by-synthesis-SBS-technology-Lu-et-al-2016](https://github.com/user-attachments/assets/a30f351f-1d00-41cc-bbf3-333458923b4d)
+Figura 6. Etapas do sequenciamento por síntese da Illumina.
+
+Sequenciamento Ion Torrent
+Em 2011, a Life Technologies e Thermo Scientific lançou a Plataforma Ion Torrent PGM TM. Essa tecnologia foi desenvolvida visando o sequenciamento de genomas pequenos ou genes específicos. O Ion Torrent emprega uma abordagem diferente das outras que foram explicadas até agora. Em vez de usar nucleotídeos marcados por fluorescência, eles implementaram o uso de íons de hidrogênio. Esses íons de hidrogênio são liberados sempre que um nucleotídeo é incorporado na fita de DNA. Essa assinatura química é detectada através de sensores em um microchip (Figure 7). Essa tecnologia é eficaz em tempo e gera cerca de 1 bilhão de pares de bases (1GB). 
+
+![on-torrent-sequencing-technology-22](https://github.com/user-attachments/assets/538b942c-d738-4998-b4df-384f9363f1d8)
+Figura 7. Esquema do sequenciamento Ion Torrent. 
+
+## Sequenciamento Oxford Nanopore
+A tecnologia de sequenciamento Nanopore foi desenvolvida pela Oxford Nanopore Technologies Ltd.  Nesse tipo de sequenciamento não há a necessidade de amplificação por Reação em Cadeia da Polimerase (PCR) ou a marcação química. O sequenciamento Nanopore usa flow cells que são formadas por um conjunto de pequenos poros (Figura 8) que estão submersos em uma membrana eletro resistente. 
+
+![MinION_Flow_Cell_Layout](https://github.com/user-attachments/assets/990e3ad1-c5c5-46c9-a0f0-bd3baf9f562c)
+Figura 8. Flow cell Oxford Nanopore.
+
+A intensidade da corrente elétrica que passa pelos nanoporos é medida. Quando uma molécula atravessa os nanoporos, a corrente é interrompida e a base nucleotídica é registrada. Um algoritmo de chamada de base determina a sequência de DNA ou RNA em tempo real (Figura 9). A plataforma Nanopore é uma tecnologia que propicia o sequenciamento de leituras longas e com alta performance. Esse sequenciamento tem registros de alguns problemas de rendimento, principalmente entupimento dos poros, mas algumas soluções estão sendo propostas.
+
+![41587_2021_1108_Fig1_HTML](https://github.com/user-attachments/assets/658b890a-b44a-42f6-9ba5-5444a864d3b7)
+Figura 9. Esquema do sequenciamento Oxford Nanopore.
+
+## Sequenciamento PacBio
+O sequenciamento PacBio usa a tecnologia de sequenciamento de molécula única em tempo real (SMRT). O centro do sequenciamento SMRT é a célula SMRT que é composta por muitos pequenos poros. As moléculas de DNA são imobilizadas nesses poros, a polimerase é incorporada em cada nucleotídeo e então, a luz é emitida. Isso possibilita que o nucleotídeo seja incorporado e que a incorporação seja medida em tempo real. Essa tecnologia possibilita o sequenciamento de leituras longas e com alta performance. 
 
 ## UNIX
 
