@@ -454,10 +454,19 @@ Entretanto, assumindo que cada sequência é representada por 4 linhas, você po
 grep -c '^@ERR' ERR12983424_2.fastq
 ```
 
-Uma forma de avaliarmos a qualidade geral de todas as sequências obtidas é por meio da ferramenta FastQC (https://github.com/s-andrews/FastQC). O software utilizará das linhas com quality score (QS) para avaliar a distribuição da qualidade por par de base. Rode o programa, que já deve estar instalado na sua máquina:
+Uma forma de avaliarmos a qualidade geral de todas as sequências obtidas é por meio da ferramenta FastQC (https://github.com/s-andrews/FastQC). O software utilizará das linhas com quality score (QS) para avaliar a distribuição da qualidade por par de base. 
+
+Para rodar o programa, baixe o diretório que contém o executável.
 
 ```
-fastqc ERR12983424_2.fastq
+wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
+unzip fastqc_v0.12.1.zip
+```
+
+Agora, corra a análise com o executável dentro de FastQC/
+
+```
+FastQC/fastqc ERR12983424_2.fastq
 ```
 
 Caso haja algum erro e/ou impossibilidade de rodar o script, abra o arquivo ERR12983424_2_fastqc.html que está no diretório do curso em um navegador de internet e avalie os gráficos. 
