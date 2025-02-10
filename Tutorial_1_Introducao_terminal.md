@@ -370,13 +370,13 @@ Antes de começar esta parte do tutorial, vamos fazer o download deste repositó
 Faça o download do repositório do mini-curso hospedado no GitHub.
 
 ```
-git clone https://github.com/rafaeliwama/STB_bioinformatics.git
+git clone https://github.com/rafaeliwama/GenEvol_bioinformatica.git
 ```
 
 Entre no diretório do curso.
 
 ```
-cd STB_bioinformatics
+cd GenEvol_bioinformatica
 ```
 
 A seguir, vamos entender o que é uma sequência fasta.
