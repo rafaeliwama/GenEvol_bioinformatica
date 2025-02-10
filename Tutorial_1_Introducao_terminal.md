@@ -68,7 +68,7 @@ Algo similar ao exemplo acima deve ser exibido.
 Essas colunas representam:
 1. Permissões
 2. Links físicos para este arquivo
-3-4 Nome do grupo e do usuário   
+3-4. Nome do grupo e de usuário
 5. Espaço utilizado pelo arquivo   
 6. Momento em que foi feita a última edição       
 7. Nome do arquivo.
@@ -208,13 +208,13 @@ sed -i 's/ring/outra coisa/g' text.txt
 É possível aplicar dois comandos distintos em uma única execução. Por exemplo, para utilizar o comando grep a partir do resultado gerado pelo sed, basta adicionar ‘|’ entre os comandos:
 
 ```
-usuario@DESKTOP-00RFJVC:~$ sed 's/ring/outra coisa/' text.txt | grep 'S'
+usuario@DESKTOP-00RFJVC:~$ sed 's/outra coisa/ring/g' text.txt | grep 'S'
 
-Stoutra coisa1~
-Stoutra coisa2>
+String1~
+String2&gt;
 S t r i n g 6
-Stoutra coisa7String8String9
-Stoutra coisa*10
+String7String8String9
+String*10
 ```
 
 Para salvar essa saída em um arquivo, use ‘>’ (“direcionar”) seguido do nome do novo arquivo.
@@ -228,25 +228,25 @@ Olhe o conteúdo do arquivo:
 ```
 usuario@DESKTOP-00RFJVC:~$ cat nomequeeuquero.txt
 
-Stoutra coisa1~
-Stoutra coisa2>
+String1~
+String2&gt;
 S t r i n g 6
-Stoutra coisa7String8String9
-Stoutra coisa*10
+String7String8String9
+String*10
 ```
 
 Para realizar uma nova busca e adicionar o resultado ao final do arquivo anterior, utilize “>>” ao invés de “>”:
 
 
 ```
-usuario@DESKTOP-00RFJVC:~$ sed 's/ring/outra coisa/' text.txt |grep '~' >> nomequeeuquero.txt
+usuario@DESKTOP-00RFJVC:~$ sed 's/ring/outra coisa/' text.txt | grep '~' >> nomequeeuquero.txt
 
 usuario@DESKTOP-00RFJVC:~$ cat nomequeeuquero.txt
-Stoutra coisa1~
-Stoutra coisa2>
+String1~
+String2&gt;
 S t r i n g 6
-Stoutra coisa7String8String9
-Stoutra coisa*10
+String7String8String9
+String*10
 Stoutra coisa1~
 ```
 
@@ -272,6 +272,12 @@ O comando mv pode também ser utilizado para renomear arquivos e pastas, movendo
 
 ```
 usuario@DESKTOP-00RFJVC:~$ mv copia_nome.txt new_dir/copia3
+```
+
+Liste o diretório criado
+
+```
+usuario@DESKTOP-00RFJVC:~$ ls new_dir
 ```
 
 Para remover arquivos, use o comando rm seguido do nome do arquivo que deseja excluir.
