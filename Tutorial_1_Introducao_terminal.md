@@ -228,11 +228,11 @@ Olhe o conteúdo do arquivo:
 ```
 usuario@DESKTOP-00RFJVC:~$ cat nomequeeuquero.txt
 
-String1~
-String2&gt;
+Stoutra coisa1~
+Stoutra coisa2&gt;
 S t r i n g 6
-String7String8String9
-String*10
+Stoutra coisa7Stoutra coisa8Stoutra coisa9
+Stoutra coisa*10
 ```
 
 Para realizar uma nova busca e adicionar o resultado ao final do arquivo anterior, utilize “>>” ao invés de “>”:
