@@ -1,4 +1,4 @@
-![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+![image](https://github.com/user-attachments/assets/8a6c0fe2-b8e8-455a-9919-d12fb12653e9)
 
 
 # Parte 1 - Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
