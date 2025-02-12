@@ -2,7 +2,8 @@
 
 
 
-![logo_colorido](https://github.com/user-attachments/assets/b18bd76c-3e71-43cd-b8f1-84bd842f44e1)
+![image](https://github.com/user-attachments/assets/42a2a467-9e95-4693-b5d0-09c8c9286bbc)
+
 
 
 # Dos genes até comunidades: como a Bionformática revolucionou a genética”
@@ -11,7 +12,7 @@
 
 ## Acesse o formulário e preencha antes e depois da realização do curso: https://docs.google.com/forms/d/1TYSu4PFBno2JYqssbX79_3nJGqP1ONibIW2JmjWaCd8/edit
 
-Bem vindo ao mini-curso de bioinformática da 26ª Semana Temática da Biologia USP (2023).
+Bem vindo ao mini-curso de bioinformática da V Curso de Férias em Genética e Evolução (2025).
 
 Este será o repositório da parte prática do mini-curso e ficará disponível neste link mesmo depois que o mini-curso acabar.
 
