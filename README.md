@@ -6,7 +6,7 @@
 
 
 
-# Dos genes até comunidades: como a Bionformática revolucionou a genética”
+# O uso da Bioinformática para identificar os genes e suas funções”
 
 ### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 
