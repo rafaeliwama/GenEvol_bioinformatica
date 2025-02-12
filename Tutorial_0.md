@@ -1,4 +1,4 @@
-![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+![image](https://github.com/user-attachments/assets/df49caee-5e9f-4c73-baa3-a9c7163d2c11)
 
 
 # Introdução teórica - bioinformática e suas principais aplicações
