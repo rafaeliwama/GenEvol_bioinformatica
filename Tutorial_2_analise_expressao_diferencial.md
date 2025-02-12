@@ -1,4 +1,4 @@
-![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+![image](https://github.com/user-attachments/assets/a360d458-1989-4249-8972-bd3e0f01f8bb)
 
 
 # Parte II - Análise de Expressão Diferencial
