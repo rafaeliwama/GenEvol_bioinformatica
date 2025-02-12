@@ -10,7 +10,8 @@
 
 ### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 
-## Acesse o formulário e preencha antes e depois da realização do curso: https://docs.google.com/forms/d/1TYSu4PFBno2JYqssbX79_3nJGqP1ONibIW2JmjWaCd8/edit
+### Acesse o formulário e preencha antes e depois da realização do curso: https://docs.google.com/forms/d/e/1FAIpQLSemVDH-jcaOfna9JU6kIYU2SFmLtxgo-RNraOfMnmgFWGOi1A/viewform?usp=sharing
+### Acesse o formulário de feedback do minicurso https://docs.google.com/forms/d/e/1FAIpQLScQrZkOTD-fsibGentPs3ojiOLMnzzF_eZ6iRA6d9RHJYPoVA/viewform?usp=sharing
 
 Bem vindo ao mini-curso de bioinformática da V Curso de Férias em Genética e Evolução (2025).
 
