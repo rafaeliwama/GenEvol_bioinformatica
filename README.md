@@ -9,6 +9,7 @@
 
 ### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
 
+## Acesse o formulário e preencha antes e depois da realização do curso: https://docs.google.com/forms/d/1TYSu4PFBno2JYqssbX79_3nJGqP1ONibIW2JmjWaCd8/edit
 
 Bem vindo ao mini-curso de bioinformática da 26ª Semana Temática da Biologia USP (2023).
 
