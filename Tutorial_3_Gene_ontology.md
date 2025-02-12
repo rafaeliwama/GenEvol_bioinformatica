@@ -1,4 +1,4 @@
-![logo_colorido](https://github.com/user-attachments/assets/e039dc21-6050-44f7-9634-02c606d537cd)
+![image](https://github.com/user-attachments/assets/cf8a95f3-db73-4954-926b-5bfd892742fb)
 
 # Parte III - Enriquecimento de vias metabólicas (Gene Ontology)
 ### Instrutores: Celine Lopes, Rafael E. Iwama e Thainá Cortez.
