@@ -10,10 +10,10 @@ tumoral (non-small cell lung cancer adenocarcinoma). Esta análise busca identif
 quais são os genes que apresentam expressão diferencial entre os tecidos (neste
 caso, normal/não doente e tumoral). O dataset que usaremos é proveniente de uma bibliteca de RNA-seq, que passou por processos de filtragem de qualidade, e mapeamento. Desta forma, ele contém a contagem *reads* brutos gerados pelo sequenciador para cada amostra por gene. Vamos tentar entender melhor os nossos dados:
 
-Certifique-se que vc está no diretório STB_bioinformatics:
+Certifique-se que vc está no diretório GenEvol_bioinformatics:
 
 ```
-pwd STB_bioinformatics
+pwd
 ```
 
 Inspecione o conteúdo do diretório.
